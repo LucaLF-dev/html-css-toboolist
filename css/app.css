@@ -1,5 +1,5 @@
-body{
-background-color:#F7F8F9;
+body {
+     background-color:#F7F8F9;
 }
 
 /* RESET  RULES*/
@@ -17,22 +17,43 @@ img {
 /* HEADER */
 
 .main-header{
-    height: 90px;
+    height: 80px;
     background-color: white;
     color: #000000;
-    font-size: 45px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-size: 55px;
+    font-weight: 800;
+
+    /* font-family: ;     */
 }
 
 .logo{
-    width: 80px;
+    width: 70px;
     vertical-align: middle;
-    margin-left: 10px;
+    margin: 5px 20px;
+    margin-right: 0;
 }
 
 .contaienr-logo{
     max-width: 900px;
-    
+}
+
+
+/* MAIN STRUCTURE */
+
+.container-nav {
+    width: 800px;
+    height: 50px;
+    background-color: white;
+    margin: 50px auto;
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+
+.container-section {
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin: 8px auto;
+    border-radius: 10px;
 }
 
