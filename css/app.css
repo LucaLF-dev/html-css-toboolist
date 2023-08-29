@@ -81,6 +81,7 @@ img {
     font-size: 12px;
 }
 
+/* SECTION SHEDULE */
 
 .container-section {
     width: 800px;
@@ -90,3 +91,41 @@ img {
     border-radius: 10px;
 }
 
+ul { 
+    list-style: none;
+}
+
+section{
+    margin-left: 31px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.green-mark{
+    color: green;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: solid green;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+
+
+}
+
+.red-mark{
+    color: red;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: solid red;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+    
+
+
+}
