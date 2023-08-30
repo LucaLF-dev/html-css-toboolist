@@ -85,10 +85,11 @@ img {
 
 .container-section {
     width: 800px;
-    height: 500px;
+    height: 700px;
     background-color: white;
     margin: 8px auto;
     border-radius: 10px;
+    font-size: 19px;
 }
 
 ul { 
@@ -98,7 +99,7 @@ ul {
 section{
     margin-left: 31px;
     padding-top: 30px;
-    line-height: 30px;
+    line-height: 36px;
 }
 
 .green-mark{
@@ -125,7 +126,17 @@ section{
     vertical-align: middle;
     text-align: center;
     line-height: 20px;
-    
-
+}
+ 
+.right-button{
+    width: 80px;
+    height: 35px;
+    border-radius: 25px; 
+    border: solid black;
+    text-align: center;
+    text-decoration: none;     
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 3px;
 
 }
